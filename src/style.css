@@ -1,5 +1,56 @@
 @import "bootstrap/dist/css/bootstrap.min.css";
 
-body{
-    background: white;
+body {
+  background: green;
+}
+
+.poker {
+  border-radius: .5rem;
+  border: 1px solid #ddd;
+  background: #fff;
+  padding: .6rem .5rem .4rem;
+  height: 4.5rem;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  text-align: center;
+  font-weight: 700;
+  position: relative;
+  width: 230px;
+  height: 350px;
+}
+
+.poker .rank {
+  font-size: 5rem;
+  line-height: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.poker .suit {
+  font-size: 2rem;
+  line-height: 1;
+
+
+}
+
+.poker.red {
+  color: #c1121f;
+}
+
+.poker.black {
+  color: #1b1b1b;
+}
+
+.miniRow .poker {
+  height: 3.8rem;
+}
+
+.badge-step {
+  background: #0d6efd;
+  color: #fff;
+  font-size: .75rem;
+  border-radius: .35rem;
+  padding: .2rem .45rem;
 }
